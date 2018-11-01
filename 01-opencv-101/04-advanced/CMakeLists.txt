@@ -1,0 +1,11 @@
+cmake_minimum_required(VERSION 2.8)
+project( advanced )
+find_package( OpenCV REQUIRED )
+include_directories( ${OpenCV_INCLUDE_DIRS} )
+add_executable( discrete_fourier_transform.out discrete_fourier_transform.cpp )
+add_executable( pca.out pca.cpp )
+add_executable( camera.out camera.cpp )
+
+target_link_libraries( discrete_fourier_transform.out ${OpenCV_LIBS} )
+target_link_libraries( pca.out ${OpenCV_LIBS} )
+target_link_libraries( camera.out ${OpenCV_LIBS} )

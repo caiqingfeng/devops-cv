@@ -1,0 +1,8 @@
+cmake_minimum_required(VERSION 2.8)
+project( helloworld )
+find_package( OpenCV REQUIRED )
+include_directories( ${OpenCV_INCLUDE_DIRS} )
+add_executable( helloworld.out helloworld.cpp )
+add_executable( mat.out mat.cpp )
+target_link_libraries( helloworld.out ${OpenCV_LIBS} )
+target_link_libraries( mat.out ${OpenCV_LIBS} )
