@@ -1,0 +1,5 @@
+https://zhuanlan.zhihu.com/p/24698483
+Goal
+本文目标是利用TensorFlow做一个简单的图像分类器，在比较大的数据集上，尽可能高效地做图像相关处理，从Train，Validation到Inference，是一个比较基本的Example， 从一个基本的任务学习如果在TensorFlow下做高效地图像读取，基本的图像处理，整个项目很简单，但其中有一些trick，在实际项目当中有很大的好处， 比如绝对不要一次读入所有的 的数据到内存（尽管在Mnist这类级别的例子上经常出现)…
+
+最开始看到是这篇blog里面的TensorFlow练习22: 手写汉字识别, 但是这篇文章只用了140训练与测试，试了下代码 很快，但是当扩展到所有的时，发现32g的内存都不够用，这才注意到原文中都是用numpy，会先把所有的数据放入到内存，但这个不必须的，无论在MXNet还是TensorFlow中都是不必 须的，MXNet使用的是DataIter，会在程序运行的过程中异步读取数据，TensorFlow也是这样的，TensorFlow封装了高级的api，用来做数据的读取，比如TFRecord，还有就是从filenames中读取， 来异步读取文件，然后做shuffle batch，再feed到模型的Graph中来做模型参数的更新。具体在tf如何做数据的读取可以看看reading data in tensorflow
