@@ -4,7 +4,7 @@
 ### 基本概念
 * 深度学习-计算机视觉 历史和现状
 
-![concept](facial-recogonize.jpeg?raw=true)
+![concept](./00-基本原理/facial-recogonize.jpeg?raw=true)
 
 ### 基础进阶 lesson101
 * opencv --- 理解图像处理的基本概念，卷积，特征提取，视频处理，抠图，边缘，物体检测（detect)，变形(transform)，对齐(alignment)，裁剪(crop)
@@ -23,9 +23,9 @@
 
 
 ### install
-$ git clone git@github.com:caiqingfeng/devops-cv
-$ cd devops-cv
-$ git clone git@github.com:caiqingfeng/opencv-rawdata
-$ ln -s opencv-rawdata data
+$ git clone git@github.com:caiqingfeng/devops-cv  
+$ cd devops-cv   
+$ git clone git@github.com:caiqingfeng/opencv-rawdata  
+$ ln -s opencv-rawdata data  
 
 ### 
