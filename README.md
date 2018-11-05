@@ -28,4 +28,8 @@ $ cd devops-cv
 $ git clone git@github.com:caiqingfeng/opencv-rawdata  
 $ ln -s opencv-rawdata data  
 
-### 
+### AI的观点
+人脸识别、车牌识别、身份证识别等CV场景在公安、考勤、风控等领域已经有比较成熟的应用，也有稳定成熟的商业模式，即主要是政府买单。做政府的生意，toB/toG这是BAT，华为等的地盘，创业公司做不了。  
+融资去做成一个中型公司的前景更加可疑。  
+除非像头条那样硬嗑出一条血路，成为头部公司。  
+AI现在需要的是数据，可以开源收集某个细分场景的数据，加上区块链的激励机制。

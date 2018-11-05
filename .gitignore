@@ -39,3 +39,4 @@ CMakeFiles/
 .vscode
 data/
 opencv-rawdata
+build/
