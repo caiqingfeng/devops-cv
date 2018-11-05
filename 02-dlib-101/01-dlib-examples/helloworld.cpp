@@ -165,8 +165,7 @@ public:
         show();
     } 
 
-    ~win(
-    )
+    ~win()
     {
         // You should always call close_window() in the destructor of window
         // objects to ensure that no events will be sent to this window while 
