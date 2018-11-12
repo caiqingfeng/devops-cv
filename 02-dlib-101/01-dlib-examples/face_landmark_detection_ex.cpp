@@ -122,6 +122,9 @@ int main(int argc, char** argv)
             win.clear_overlay();
             win.set_image(img);
             win.add_overlay(render_face_detections(shapes));
+            dlib::rectangle rect;
+            // dlib::draw_rectangle(img, rect, dlib::rgb_pixel(255, 0, 0), 1);
+            // save_jpeg(img, "detected.jpg");
 
             // We can also extract copies of each face that are cropped, rotated upright,
             // and scaled to a standard size as shown here:
