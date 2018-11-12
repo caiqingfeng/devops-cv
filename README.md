@@ -1,3 +1,6 @@
+## reference
+https://www.jianshu.com/p/bf7260f82efa
+
 ### 说明
 本项目作为开源学习掌握计算机视觉和深度学习的共享平台，希望帮助更多的人破除AI，CV，DL，ML等神秘感，同时也对业界最新成果做一个点评，并集成在一起做几个跟CV有关的cool的东西。 </bp>
 
@@ -9,6 +12,7 @@
 ### 基础进阶 lesson101
 * opencv --- 理解图像处理的基本概念，卷积，特征提取，视频处理，抠图，边缘，物体检测（detect)，变形(transform)，对齐(alignment)，裁剪(crop)
 * dlib --- 理解更高阶的图像处理算法，加载深度学习模型
+* darknet --- 深度学习框架、物体识别很好的模型
 * tensorflow --- 深度学习框架
 * OpenFace  --- 深度学习模型
 * faceID  --- 基本原理
