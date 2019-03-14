@@ -22,3 +22,11 @@ $ make
 $ sudo make install
 
 ```
+
+### boost 1.69
+```
+$ ./bootstrap.sh
+$ ./b2
+$ sudo ./b2 install
+
+```
